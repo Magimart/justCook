@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState, useEffect, Fragment} from 'react';
-import {client} from './client'
+import {client} from '../../trash/client'
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
