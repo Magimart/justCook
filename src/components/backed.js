@@ -15,16 +15,14 @@ const App=()=> {
 
   useEffect(()=>{
 
-
     client.getEntries()
 
     .then((response, error) => {
 
         if (!error) 
-        //set state
           setRecipes(response.items);
 
-            console.log(response.items)
+            // console.log(response.items)
         //  console.log(recipes.items[0].fields);
        
       }
